@@ -1,5 +1,5 @@
-//using Microsoft.AspNetCore.Hosting;
-//using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace WebAPI_Case
 {
@@ -17,4 +17,7 @@ namespace WebAPI_Case
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
+   
+
 }
