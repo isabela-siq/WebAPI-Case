@@ -1,6 +1,6 @@
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI_Case.Controllers;
+using WebAPI_Case.Controllers; //pega a namespace criado em UsuarioController
 
 using Xunit;
 
@@ -14,13 +14,13 @@ namespace TestWebAPI_Case
         [Fact]
         public void Get_UsuariosOk_ConsultarTodos()
         {
-            // Arrange
+            // Arrange: Inicialização
             var controller = new UsuarioController();
 
-            // Act
+            // Act: Ação e resultado
             var response = controller.ConsultarTodos();
 
-            // Assert
+            // Assert: Verificação
             response.Should().BeOfType<OkResult>();
         }
     }

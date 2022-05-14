@@ -45,7 +45,7 @@ namespace WebAPI_Case.Controllers
         /// </returns>
         [HttpPost]
         [Route("incluir")]
-        public IActionResult Adicionar()
+        public IActionResult Adicionar(string nome, string email)
         {
             return Ok();
         }
@@ -59,7 +59,7 @@ namespace WebAPI_Case.Controllers
         /// </returns>
         [HttpPut]
         [Route("atualizar")]
-        public IActionResult Atualizar()
+        public IActionResult Atualizar(string nome, string email)
         {
             return Ok();
         }

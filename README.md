@@ -4,3 +4,4 @@ Objetivo: Create, Read, Uptade e Delete informações de email e nome do usuári
 
 Iniciei o projeto pelo VisualStudio e o inseri no repositório do GitHub.
 Acrescentei os códigos obtidos pelo arquivo base fornecido.
+Acrescentei os arquivos base de teste
